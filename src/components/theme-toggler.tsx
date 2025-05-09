@@ -17,7 +17,7 @@ export function ModeToggle() {
   };
 
   return (
-    <label className="switch shadow-md dark:border-gray-600 scale-60 -mr-4 -mt-14 md:-mr-0 md:self-baseline">
+    <label className="switch shadow-md dark:border-gray-600 scale-60 -mr-5 -mt-2 md:-mr-0 md:mt-0">
       <input
         type="checkbox"
         onChange={handleThemeChange}
